@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pedidos</title>
+
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/originals/a1/af/f1/a1aff16e1bddb014e51dc80c436f972f.png" alt="logo" width="150" height="150">
+        <h1 class="tabla">
+            <a href="index.html">Inicio</a>
+            <a href="Modelos.html">Modelos</a>
+            <a href="Pedidos.html">Pedidos</a>
+            <a href="Consultas.html">Contacto</a>
+        </h1>
+    
+   </header>
+    <h1 style="color: mediumvioletred" class="formulario1">Haga su compra</h1>
+    <br>
+    <form method="name" action="index.html" class="formulario">
+        <label>Nombres:</label> 
+        <br>
+        <input type="text" name="Nombres y Apellidos" placeholder="Ingrese su nombre completo" maxlength="30" required>
+        <br>
+        <label>Apellidos:</label> 
+        <br>
+        <input type="password" name="Contraseña" placeholder="Ingrese su Contraseña" maxlength="30" required>
+        <br>
+        <label>Contraseña:</label> 
+        <br>
+        <input type="email" name="Email" placeholder="Ingrese su email" maxlength="30" required>
+        <br>
+        <label>Indique prenda a comprar</label>
+        <select name="comprar" id="comprar" required>
+            <option value=""></option>
+            <option value="remera">Remera</option>
+            <option value="pantalon">Pantalon</option>
+            <option value="buzo">Buzo</option>
+            <option value="zapatilla">Zapatilla</option>
+        </select>
+        <br>
+        <label>Indique color de prenda:</label>
+        <br>
+        <label for="rojo">Rojo</label><input type="radio" name="prenda" id="rojo" required>
+        <label for="verde">Verde</label><input type="radio" name="prenda" id="verde" required>
+        <label for="amarillo">Amarillo</label><input type="radio" name="prenda" id="amarillo" required>
+        <br>
+        <label>Indique talle segun articulo:</label>
+        <select name="articulo" id="talle" required>
+            <option value=""></option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+        </select>
+        <br>
+        <label>Deja un comentario:</label>
+        <br>
+        <textarea name="comentario" id="" cols="30" rows="5"></textarea>
+        <br>
+    
+        
+        <input type="submit" value="Comprar">
+        <input type="reset" value="Cancelar">
+    </form>
+    <footer>
+        <p>Pagina creada por Cristian Ahumada</p>
+    </footer>
+</body>
+</html>

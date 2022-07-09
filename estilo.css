@@ -1,0 +1,22 @@
+.tabla {
+    text-align: right;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.formulario {
+    border-color: rgb(64, 185, 60);
+    border: width 50px;
+    border-style: solid;
+}
+
+.formulario1 {
+    text-align: center;
+}
+
+.formulario {
+    margin-left: 13cm;
+    margin-right: 13cm;
+}
