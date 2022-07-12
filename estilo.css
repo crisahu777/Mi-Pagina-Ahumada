@@ -20,3 +20,13 @@
     margin-left: 13cm;
     margin-right: 13cm;
 }
+
+.index {
+    text-align: center;
+}
+
+#carouselExampleDark {
+    width: 90%;
+    align-items: center;
+
+}
