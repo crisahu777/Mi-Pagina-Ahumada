@@ -40,7 +40,14 @@
     text-align: center;
 }
 
-#conteiner2 {
+.conteiner1 {
+    width: 100%;
+    display: flex;
+    columns: 3;
+    grid-template-columns: 3;   
+}
+
+.conteiner2 {
     width: 100%;
     display: flex;
 }
@@ -58,3 +65,14 @@
     bottom: 3px;
     right: 3px;
 }
+
+.modelos {
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulos {
+    text-align: center;
+    font-weight: bold;
+}
+
