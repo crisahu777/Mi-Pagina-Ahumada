@@ -6,8 +6,9 @@
     background-repeat: no-repeat;
     background-size:100% 100% ;
     background-attachment: fixed;
-    color: white;
+    color: black;
     font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -20,6 +21,11 @@
     margin-right: 8cm;
 }
 
+.navbar {
+    color: black;
+    font-weight: bold;
+}
+
 .formulario1 {
     text-align: center;
 }
@@ -27,6 +33,7 @@
 #index {
     width: 100%;
     text-align: center;
+    
 }
 
 .consultas {
@@ -48,7 +55,6 @@
 
 #whatsapp{
     position: fixed;
-    
-    bottom: 5px;
-    right: 5px;
+    bottom: 3px;
+    right: 3px;
 }
