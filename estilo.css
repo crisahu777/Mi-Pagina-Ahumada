@@ -1,32 +1,54 @@
-.tabla {
-    text-align: right;
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: url("fondo 2.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
-.formulario {
-    text-align: left;
-}
 
 .formulario {
     border-color: rgb(64, 185, 60);
     border: width 50px;
     border-style: solid;
+    text-align: left;
+    margin-left: 8cm;
+    margin-right: 8cm;
 }
 
 .formulario1 {
     text-align: center;
 }
 
-.formulario {
-    margin-left: 13cm;
-    margin-right: 13cm;
-}
-
-.index {
+#index {
+    width: 100%;
     text-align: center;
 }
 
-#carouselExampleDark {
-    width: 90%;
-    align-items: center;
+.consultas {
+    text-align: center;
+}
 
+#conteiner2 {
+    width: 100%;
+    display: flex;
+}
+
+.main {
+    width: 65%;
+}
+
+.aside {
+    width: 25%;
+}
+
+#whatsapp{
+    position: fixed;
+    
+    bottom: 5px;
+    right: 5px;
 }
