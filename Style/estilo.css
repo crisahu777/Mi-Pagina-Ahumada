@@ -41,7 +41,7 @@
 }
 
 .conteiner1 {
-    width: 100%;
+    width: 80%;
     display: flex;
     columns: 3;
     grid-template-columns: 3;   
