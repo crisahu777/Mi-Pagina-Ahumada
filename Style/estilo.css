@@ -157,3 +157,23 @@ a{
 .modelos {
     margin-top: 17px;
 }
+
+.titulo{
+    color: black;
+    text-align: center;
+}
+
+.card-text{
+    color: black;
+    text-align: center;
+}
+
+.boton{
+    margin-left: 40%;
+    color: blue;
+}
+
+
+.card{
+    margin-left: 25%;
+}
