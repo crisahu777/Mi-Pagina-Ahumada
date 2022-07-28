@@ -2,7 +2,7 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
-    background-image: url("../Media/Imagenes/fondo\ 2.jpg");
+    background-image: linear-gradient(rgba(16, 16, 16, 0.295),rgba(16, 16, 16, 0.295)), url("../Media/Imagenes/fondo\ 2.jpg");
     background-repeat: no-repeat;
     background-size:100% 100% ;
     background-attachment: fixed;
@@ -39,7 +39,8 @@
 .conteiner1 {
     width: 100%;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
+    
 }
 
 .conteiner2 {
@@ -57,13 +58,51 @@
 
 #whatsapp{
     position: fixed;
-    bottom: 3px;
-    right: 3px;
+    bottom: 50px;
+    right: 50px;
 }
 
-.modelos {
-    text-align: center;
-    font-weight: bold;
+#whatsapp:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #00ff04;
+    border-radius: 100%;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#volver svg{
+    color: white;
+}
+
+#volver{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+#volver:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #0112f6;
+    border-radius: 100%;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.forma{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+}
+
+.modelos2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+   
 }
 
 .titulos {
@@ -73,3 +112,46 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+h6{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+h5{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+
+.imagen{
+    text-align: center;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.imagen img{
+    width: 250 px;
+    height: 300px;
+    box-shadow: 0px 0px 6px rgb(250, 11, 11);
+}
+
+.imagen img:hover{
+    box-shadow: 0px 0px 5px 2px;
+}
+
+.imagen:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.modelos {
+    margin-top: 17px;
+}
